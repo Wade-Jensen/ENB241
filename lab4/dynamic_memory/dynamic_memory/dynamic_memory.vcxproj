@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{54EC66FD-D1A0-41CB-BE74-111ECD792A97}</ProjectGuid>
-    <RootNamespace>Sorting</RootNamespace>
+    <ProjectGuid>{139E9A10-92A8-45F9-A08F-1C18655F24FC}</ProjectGuid>
+    <RootNamespace>dynamic_memory</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,8 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ex02-1-2\ex02-1\ex02-1.cpp" />
-    <ClCompile Include="ex03.cpp" />
+    <ClCompile Include="ex01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dynamic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

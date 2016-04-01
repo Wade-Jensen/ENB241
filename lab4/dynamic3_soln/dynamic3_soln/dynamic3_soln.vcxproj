@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{54EC66FD-D1A0-41CB-BE74-111ECD792A97}</ProjectGuid>
-    <RootNamespace>Sorting</RootNamespace>
+    <ProjectGuid>{D10AE618-4D68-451B-B96E-59267FD62069}</ProjectGuid>
+    <RootNamespace>dynamic3_soln</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,8 +64,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ex02-1-2\ex02-1\ex02-1.cpp" />
-    <ClCompile Include="ex03.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
